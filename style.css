@@ -1,0 +1,86 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.row
+{
+    max-width:1140px;
+    margin: 0 auto;
+}
+body
+{
+    font-family: tahoma;
+}
+.hero
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-61%,-61%);
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://i.imgur.com/lTV43Lv.jpg');
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+h1{
+    color:white;
+}
+.main-nav
+{
+    list-style: none;
+    float:right;
+    margin-top:60px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left:20px;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration:none;
+    font-style:90%;
+    font-weight:bold;
+}
+
+.main-nav li a:hover
+{
+    color:greenyellow;
+    border-bottom: 2px solid 
+    transition: all 0.5s ease-in;
+    padding: 5px 0;
+}
+
+.logo img
+{
+    height:100px;
+    float: left;
+    margin-top:30px;
+}
+
+.copy
+{
+    width:70%;
+    margin-left:15%;
+}
+
+h3:after
+{
+    width:100px;
+    height:2px;
+    background-color: #e67e22;
+}
+
+.features h3
+{
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
