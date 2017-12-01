@@ -18,14 +18,16 @@ body
     width: 1140px;
     top: 50%;
     left:50%;
-    transform: translate(-61%,-61%);
+    transform: translate(-50%,-50%);
 
 }
-header{
+header
+{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://i.imgur.com/lTV43Lv.jpg');
     height: 100vh;
     background-position:center;
     background-size:cover;
+    background-attachment: fixed;
 }
 h1{
     color:white;
@@ -76,11 +78,57 @@ h3:after
     width:100px;
     height:2px;
     background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin:0 auto;
+    margin-top:30px;
 }
 
 .features h3
 {
     margin-top:80px;
-    margin-bottom:80px;
+    margin-bottom:30px;
 }
 
+.arranging
+{
+    text-align:justify;
+}
+.meal-showcase
+{
+    list-style:none;
+    width:100%;
+    
+    
+}
+
+.meal-showcase li
+{
+    display: block;
+    width:25%;
+    float:left;
+}
+
+.meal-photo
+{
+    width:100%;
+    margin:0;
+    overflow:hidden;
+}
+
+.meal-photo img
+{
+    width:100%;
+    height:auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover
+{
+    transform:scale(1.05);
+}
+.meal
+{
+    margin-top:60px;
+}
